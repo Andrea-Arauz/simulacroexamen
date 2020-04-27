@@ -24,3 +24,97 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+ion-title{
+    margin-left: -15px;
+    width: 100% !important;
+    float: left;
+  }
+  
+  .title-md{
+    --margin-left: -5px !important;
+  }
+  
+  .round {
+    border-radius: 50%;
+    width: 50% !important;
+  
+  }
+  
+  .imgCol{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #menu-avatar {
+    .user-avatar {
+      padding: .5em;
+    }
+    h3,
+    ion-label {
+      color: black;
+      font-weight: bold;
+    }
+    .item {
+      background: transparent;
+    }
+    ion-content {
+      --background: linear-gradient(48deg, rgba(70, 150, 204, 0.8));
+    }
+    .menu-inner {
+      --background: rgba(255, 255, 255, .3);
+    }
+  
+    ion-icon {
+      margin-right: 25px;
+    }
+  
+    ion-item {
+      --background: transparent !important;
+      --border-width: 0px 0px 0px 0px !important;
+      --border-style: none !important;
+    }
+  }
+  
+  ion-toolbar {
+    color: danger;
+     }
+  
+  .list-md{
+   background: linear-gradient(48deg, rgba(70, 150, 204, 0.8) 0%, rgba(157, 72, 173, 0.86) 28%, rgba(0, 168, 168, 0.98) 93%, rgba(0, 168, 168, 1) 100%);
+  }
+  
+  .list-md:not(.list-inset):not(.list-md-lines-none) .item:last-child {
+    --border-width: 0px 0px 0px 0px !important;
+  }
+  
+  ion-list {
+    background: none !important;
+    border: none !important;
+  }
+  
+  ul {
+    padding: 0px;
+  
+    &.rating li {
+        padding: 0px 0px !important;
+        background: none;
+        color: #ffb400;
+  
+        ion-icon {
+          font-size: 20px;
+        }
+    }
+  }
+  
+  
+  ion-toolbar{
+    --background: danger;
+  }  
+  .alert-title{
+    color: #4aa1f3 !important;
+    width: 100% !important;
+  }
+  
+  .alert-sub-title{
+    color: #73879C !important;
+  }
